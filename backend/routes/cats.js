@@ -8,5 +8,7 @@ router.get("/", getCats)
 router.post("/", addCat)
 
 router.put("/:id", updateCat)
+
+
 export default router
 

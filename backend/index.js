@@ -1,7 +1,5 @@
 import express from "express"
-
 import catRoutes from "./routes/cats.js"
-
 import cors from "cors"
 
 const app = express()
