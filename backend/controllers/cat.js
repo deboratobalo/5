@@ -26,3 +26,20 @@ db.query(q, [values], (error) => {
 
   return res.status(200).json("Gato cadastrado com sucesso!")
 })
+
+
+export const updateCat = (req, res) => {
+  const q = "update gatos set `nome` = ?, `idade` = ?, `microchip = ? where `id` = ?"
+const values = [
+  req.body.nome,
+  req.body.idade,
+  req.microchip,
+]
+
+db.query(q, [...values, req.params.id], (error) => {
+  if (error) return res.json(error)
+
+  return res.status(200).json("Dados do bichano atualizado com sucesso!")
+})
+
+}
