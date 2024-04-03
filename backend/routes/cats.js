@@ -1,13 +1,18 @@
 import express from "express"
-import { getCats, addCat, updateCat } from "../controllers/cat.js"
+import { getAllCats, getCat, getAgeCat, } from "../controllers/cat.js"
 
 const router = express.Router()
 
-router.get("/", getCats)
+router.get("/", getAllCats)
 
-router.post("/", addCat)
+router.get("/:id", getCat)
 
-router.put("/:id", updateCat)
+router.get("/age", getAgeCat)
+
+
+
+// router.post("/", addCat)
+
 
 
 export default router
