@@ -1,4 +1,6 @@
 import './App.css'
+import PagAgeGets from './Pags/pagAgeGet'
+import PagCatOne from './Pags/pagCatOne'
 import PagGetCat from './Pags/pagGetCat'
 import Card from './component/Card.component'
 
@@ -6,10 +8,12 @@ function App() {
   
   return (
     <>
-    <div className='group-card'>
+    {/* <div className='group-card'>
     <Card/>
-    </div> 
+    </div>  */}
     <PagGetCat/>
+    {/*<PagAgeGets/> */}
+    {/*<PagCatOne/>*/}
     {/* <div className='cats-id'>
     <Card/>
     </div>

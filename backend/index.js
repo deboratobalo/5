@@ -8,7 +8,6 @@ app.use(cors())
 
 app.use(express.json())
 
-
 app.use("/", catRoutes)
 
 app.listen(8800)

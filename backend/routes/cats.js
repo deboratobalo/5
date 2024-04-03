@@ -9,9 +9,13 @@ const router = express.Router()
 
 // router.get("/age", getAgeCat)
 
-router.get("/", getAllCats)
+router.get("/", (req, res) =>{
+    return getAllCats(req, res)
+} )
 
-router.get("/cats/:id", getCat)
+router.get("/cats/:id", (req, res) =>{
+    return getCat(req, res)
+})
 
 router.get("/age", (req, res) => {
     return getAgeCat(req, res);

@@ -1,3 +1,7 @@
+*{
+  background-color: rgb(235, 235, 188);
+}
+
 .container{
   background-color: crimson;
   height: 175px;
@@ -15,3 +19,9 @@
   justify-content: center;
   gap: 20px;
 }
+
+.container-card{
+  display: flex;
+  gap: 15px;
+}
+
