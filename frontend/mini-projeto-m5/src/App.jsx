@@ -1,18 +1,22 @@
 import './App.css'
-// import Card from './component/Card.component'
-import Form from './component/Form.component'
-
+import PagGetCat from './Pags/pagGetCat'
+import Card from './component/Card.component'
 
 function App() {
   
   return (
     <>
-    {/* <div className='group-card'>
+    <div className='group-card'>
     <Card/>
+    </div> 
+    <PagGetCat/>
+    {/* <div className='cats-id'>
     <Card/>
+    </div>
+
+    <div className='cats-age'>
     <Card/>
     </div> */}
-    <Form/>
     </>
   )
 }

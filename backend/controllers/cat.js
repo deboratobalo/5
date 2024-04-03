@@ -24,8 +24,8 @@ db.query(q, req.params.id, (error, data) => {
 }
 
 
-export const getAgeCat = (_, res) => {
-  const q = "select * from gatos where `idade` <= 5"
+export const getAgeCat = (req, res) => {
+  const q = "select * from gatos where `idade` >= 5"
 
   
 db.query(q, (error, data) => {

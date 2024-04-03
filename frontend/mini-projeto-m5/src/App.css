@@ -15,35 +15,3 @@
   justify-content: center;
   gap: 20px;
 }
-
-
-.form-registro{
-  background-color: aqua;
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 400px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.inputs{
-  width: 80%;
-  border-radius: 15px;
-  padding: 5px;
-}
-
-.button-form{
-  background-color: rgb(102, 102, 205);
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-.labels-form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 400px;
-}
