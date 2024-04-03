@@ -1,26 +1,27 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from "../component/Card.component";
+Card;
 
-export default function PagAgeGets() {
-  const [catAge, setCatAge] = useState([]);
-  async function getCatAge() {
-    const { data } = await axios.get("http://localhost:8800/age/");
-    setCatAge(data);
+export default function PagYoungGet() {
+  const [catYoung, setCatYoung] = useState([]);
+  async function getCatYoung() {
+    const { data } = await axios.get("http://localhost:8800/age-young/");
+    setCatYoung(data);
   }
 
   useEffect(() => {
-    getCatAge();
+    getCatYoung();
   }, []);
 
   return (
-    <section className="group-age-card">
+    <section className="group-age-cat">
       <div className="container-card">
         <h3>
-          Gatos por Idade <span className="age-cat">5</span>
+          Gatos por Idade menor<span className="age-cat"> 5</span>
         </h3>
         <div className="cards-pag-get">
-          {catAge.map((card) => {
+          {catYoung.map((card) => {
             return (
               <Card
                 nome={card.nome}

@@ -1,28 +1,20 @@
-import './App.css'
-import PagAgeGets from './Pags/pagAgeGet'
-import PagCatOne from './Pags/pagCatOne'
-import PagGetCat from './Pags/pagGetCat'
-import Card from './component/Card.component'
+import "./App.css";
+import PagAgeGets from "./Pags/pagAgeGet";
+import PagGetCat from "./Pags/pagGetCat";
+import PagYoungGet from "./Pags/pagYoungCat";
 
 function App() {
-  
   return (
     <>
-    {/* <div className='group-card'>
-    <Card/>
-    </div>  */}
-    <PagGetCat/>
-    {/*<PagAgeGets/> */}
-    {/*<PagCatOne/>*/}
-    {/* <div className='cats-id'>
-    <Card/>
-    </div>
-
-    <div className='cats-age'>
-    <Card/>
-    </div> */}
+      <div className="principal-pag">
+        <div className="group-card">
+          <PagGetCat />
+          <PagAgeGets />
+          <PagYoungGet />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
