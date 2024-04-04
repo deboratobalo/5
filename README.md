@@ -4,26 +4,30 @@ Mini Projeto M5
 
 ### SOBRE
 
-O foco da API foi cadastrar animais de rua, o frontend conta com as 3 rotas get, na qual os animais foram cadastrados.
+Este projeto foi desenvolvido como parte do Mini Projeto M5, com o objetivo de criar uma solução para o cadastro de animais de rua. A API fornecida permite o acesso aos dados dos animais cadastrados através de rotas GET no frontend.
 
 ### TECNOLOGIAS USADAS NO FRONTEND
 
-react
+- react
 
-react-icons
+- react-icons
 
-useState
+- useState
 
-useEffect
+- useEffect
 
-axios
+- axios
 
 ### TECNOLOGIAS USADAS NO BACKEND
 
-express
+- express
 
-mysql
+- mysql
 
-cors
+- cors
 
-dotenv
+- dotenv
+
+### LINK DA POSTAGEM NO LINKEDIN
+
+[Postagem do Mini Projeto M5 no Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7181655039990480896/)
